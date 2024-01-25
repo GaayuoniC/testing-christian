@@ -1,0 +1,22 @@
+.header-container {
+  display: flex;
+  position: relative;
+  background-image: url("/public/moleNatinalPark.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+
+.header-container-text {
+  position: absolute;
+  left: 45%;
+  bottom: 60%;
+  color: whitesmoke;
+}
+
+@media (max-width: 412px) {
+  .header-container-text {
+    left: 35%;
+    bottom: 55%;
+  }
+}
