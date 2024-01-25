@@ -4,7 +4,7 @@
   background-image: url("/public/moleNatinalPark.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 400px;
+  height: 300px;
 }
 
 .header-container-text {
@@ -13,10 +13,24 @@
   bottom: 60%;
   color: whitesmoke;
 }
+.header-container-nav {
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+  position: absolute;
+  right: 2%;
+}
 
-@media (max-width: 412px) {
+@media (max-width: 768px) {
   .header-container-text {
     left: 35%;
     bottom: 55%;
+  }
+  .header-container-nav {
+    gap: 10px;
+    bottom: 5%;
+  }
+  .header-container-nav li {
+    color: white;
   }
 }
