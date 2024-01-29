@@ -74,6 +74,12 @@ export function History() {
       >
         <p> 12 </p>
       </div>
+      <div
+        className="history-item"
+        style={{ backgroundImage: `url("/rejika-croatia.jpg")` }}
+      >
+        <p> 13 </p>
+      </div>
     </section>
   );
 }
