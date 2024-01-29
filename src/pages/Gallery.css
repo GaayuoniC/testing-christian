@@ -1,0 +1,57 @@
+.basic-grid {
+  display: grid;
+  gap: 1rem;
+  /* 12 columns and repeating */
+  /* grid-template-columns: repeat(12, 1fr); */
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  /* Using the repeat with a minmax function to specify the columns 
+  use auto fit instead of specifying the number of columns that is needed*/
+  grid-auto-rows: 240px;
+}
+
+body {
+  background-color: rgb(19, 19, 19);
+  color: #fff;
+  font-family: sans-serif;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #353535;
+  font-size: 3rem;
+  color: #fff;
+  box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem, 0.5rem,
+    rgba(3, 8, 20, 0.1) 0px 0.75rem 0.175rem;
+  height: 100%;
+  width: 100%;
+  border-radius: 4px;
+  transition: all 500ms;
+  overflow: hidden;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Everyday is a learning curve */
+.card:hover {
+  box-shadow: rgba(2, 8, 20, 0.1) 0px 35em 1.175em,
+    rgba(2, 8, 20, 0.8) 0px 0.175em 0.5em;
+  transform: translateY(-3px) scale(1.1);
+}
+
+/* This means at at 600px of below the query will not function */
+@media screen and (min-width: 600px) {
+  /* using this to specify how much space a card can
+ocupy in the grid layout */
+  .card-tall {
+    grid-row: 1 / 4;
+    /* Take note of this style of span */
+  }
+
+  .card-wide {
+    grid-column: span 2 / auto;
+  }
+}

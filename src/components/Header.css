@@ -20,8 +20,11 @@
   position: absolute;
   right: 5%;
 }
-.header-container-nav li {
+
+.nav-link li {
+  color: white;
   list-style-type: none;
+  font-size: 20px;
 }
 
 @media (max-width: 768px) {
