@@ -1,104 +1,79 @@
 import "./History.css";
 export function History() {
   return (
-    <div className="history-container">
+    <section className="history-container">
       <div className="history-item">
-        <h1> History </h1>
+        <p>
+          <span id="moto"> "Monkey see monkey do" </span>
+        </p>
+        <p>
+          Experiment with grid layout and a flex box.The idea is to see how they
+          can be used together in a responsive browser for got user experience
+        </p>
       </div>
       <div className="history-item">
-        <p> one </p>
-        <article>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-            nemo ex, fugiat iusto iste veritatis. Placeat voluptas reiciendis ab
-            et quis provident ducimus totam amet consectetur minima quae,
-            cumque, accusantium iste. Ipsum, corrupti voluptate? Praesentium
-            inventore pariatur accusantium vitae voluptatum consequuntur vel
-            consectetur quasi aliquid odio, exercitationem voluptas harum non.
-          </p>
-        </article>
+        <p>One day at a time!</p>
+      </div>
+      <div
+        className="history-item"
+        style={{ backgroundImage: `url("/odessa black sea view.jpg")` }}
+      >
+        <p> Carpe diem</p>
       </div>
       <div className="history-item">
-        <div>
-          <article>
-            <p> two</p>
-            <p>
-              1 <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Ducimus nemo ex, fugiat iusto iste veritatis. Placeat voluptas
-              reiciendis ab et quis provident ducimus totam amet consectetur
-              minima quae, Lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Unde velit a corporis quisquam impedit aperiam at. Neque
-              recusandae ratione iure odit eius odio ut minus dolorum ad
-              reiciendis! Beatae, praesentium. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Ducimus nemo ex, fugiat iusto iste
-              veritatis. Placeat voluptas reiciendis ab et quis provident
-              ducimus totam amet consectetur minima quae,
-            </p>
-          </article>
-        </div>
+        <p>"Get up and do something for your self" - Joseph Hill Culture</p>
       </div>
       <div className="history-item">
-        <p>three</p>
-        <article>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-            nemo ex, fugiat iusto iste veritatis. Placeat voluptas reiciendis ab
-            et quis provident ducimus totam amet consectetur minima quae,
-            cumque, accusantium iste. Ipsum, corrupti voluptate? Praesentium
-            inventore pariatur accusantium vitae voluptatum consequuntur vel
-            consectetur quasi aliquid odio, exercitationem voluptas harum non.
-          </p>
-        </article>
-        <article>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-            nemo ex, fugiat iusto iste veritatis. Placeat voluptas reiciendis ab
-            et quis provident ducimus totam amet consectetur minima quae,
-            cumque, accusantium iste. Ipsum, corrupti voluptate? Praesentium
-            inventore pariatur accusantium vitae voluptatum consequuntur vel
-            consectetur quasi aliquid odio, exercitationem voluptas harum non.
-          </p>
-        </article>
+        <p> four</p>
       </div>
-      <div className="history-item">
-        four
-        <article>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-            nemo ex, fugiat iusto iste veritatis. Placeat voluptas reiciendis ab
-            et quis provident ducimus totam amet consectetur minima quae,
-            cumque, accusantium iste. Ipsum, corrupti voluptate? Praesentium
-            inventore pariatur accusantium vitae voluptatum consequuntur vel
-            consectetur quasi aliquid odio, exercitationem voluptas harum non.
-          </p>
-        </article>
+      <div
+        className="history-item history-item-tall"
+        style={{ backgroundImage: `url("/odessa seaview nice.jpg")` }}
+      >
+        <p>Odessa, Black Sea </p>
       </div>
-      <div className="history-item">
-        five
-        <article>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-            nemo ex, fugiat iusto iste veritatis. Placeat voluptas reiciendis ab
-            et quis provident ducimus totam amet consectetur minima quae,
-            cumque, accusantium iste. Ipsum, corrupti voluptate? Praesentium
-            inventore pariatur accusantium vitae voluptatum consequuntur vel
-            consectetur quasi aliquid odio, exercitationem voluptas harum non.
-          </p>
-        </article>
+      <div
+        className="history-item history-item-tall"
+        style={{ backgroundImage: `url("/odessa sun rise.jpg")` }}
+      >
+        <p> Yoga </p>
       </div>
-      <div className="history-item">
-        six
-        <article>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-            nemo ex, fugiat iusto iste veritatis. Placeat voluptas reiciendis ab
-            et quis provident ducimus totam amet consectetur minima quae,
-            cumque, accusantium iste. Ipsum, corrupti voluptate? Praesentium
-            inventore pariatur accusantium vitae voluptatum consequuntur vel
-            consectetur quasi aliquid odio, exercitationem voluptas harum non.
-          </p>
-        </article>
+      <div
+        className="history-item history-item-tall"
+        style={{ backgroundImage: `url("/yoga3.jpg")` }}
+      >
+        <p> 7 </p>
       </div>
-    </div>
+      <div
+        className="history-item history-item-tall"
+        style={{ backgroundImage: `url("/rejika-croatia.jpg")` }}
+      >
+        <p> 8 </p>
+      </div>
+      <div
+        className="history-item history-item-tall"
+        style={{ backgroundImage: `url("/odessa opera house.jpg")` }}
+      >
+        <p> 9 </p>
+      </div>
+      <div
+        className="history-item history-item-tall"
+        style={{ backgroundImage: `url("/window-flowers.jpg")` }}
+      >
+        <p> 10 </p>
+      </div>
+      <div
+        className="history-item history-item-tall"
+        style={{ backgroundImage: `url("/privos mama.jpg")` }}
+      >
+        <p> 11 </p>
+      </div>
+      <div
+        className="history-item"
+        style={{ backgroundImage: `url("/yoga3.jpg")` }}
+      >
+        <p> 12 </p>
+      </div>
+    </section>
   );
 }

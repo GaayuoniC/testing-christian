@@ -88,7 +88,7 @@
   grid-area: l;
   animation-delay: calc(12 * var(--stagger-delay));
 }
-.card-1:nth-child(main) {
+.card-1:nth-child(13) {
   grid-area: u;
   animation-delay: calc(13 * var(--stagger-delay));
 }
