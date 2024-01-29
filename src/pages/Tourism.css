@@ -91,4 +91,9 @@
 .card-1:nth-child(13) {
   grid-area: u;
   animation-delay: calc(13 * var(--stagger-delay));
+
+  background-position: center;
+  background-repeat: no-repeat;
+  /* Cover ensures the whole pic  gets displayed in the grid */
+  background-size: cover;
 }
