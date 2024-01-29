@@ -46,6 +46,6 @@
 
 @media screen and (min-width: 600px) {
   .history-container {
-    grid-row: 1 / 4;
+    grid-column: 1fr;
   }
 }
