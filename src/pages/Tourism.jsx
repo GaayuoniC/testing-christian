@@ -15,7 +15,12 @@ export function Tourism() {
       <div className="card-1">10</div>
       <div className="card-1">11</div>
       <div className="card-1">12</div>
-      <div className="card-1">main</div>
+      <div
+        className="card-1"
+        style={{ backgroundImage: `url("/odessa black sea view.jpg")` }}
+      >
+        main
+      </div>
     </section>
   );
 }
