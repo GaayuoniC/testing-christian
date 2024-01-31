@@ -4,7 +4,7 @@ export function Gallery() {
   return (
     <section className="basic-grid">
       <div
-        className="card card-tall"
+        className="card card-tall card-wide"
         style={{
           backgroundImage: `url("/chris odessa park.jpg")`,
         }}
@@ -52,7 +52,7 @@ export function Gallery() {
         }}
       ></div>
       <div
-        className="card"
+        className="card "
         style={{
           backgroundImage: `url("/chris chilling2.jpg")`,
         }}
@@ -71,7 +71,7 @@ export function Gallery() {
         }}
       ></div>
       <div
-        className="card"
+        className="card card-wide"
         style={{
           backgroundImage: `url("/odessa morning sunrise.jpg")`,
         }}

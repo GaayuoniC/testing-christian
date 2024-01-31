@@ -32,7 +32,7 @@
 /* Using the nth element child to place each grid */
 
 .card-1 {
-  background-color: rgb(36, 243, 147);
+  /* background-color: rgb(36, 243, 147); */
   animation: cardEntrance 700ms ease-out;
   animation-fill-mode: backwards;
 }
