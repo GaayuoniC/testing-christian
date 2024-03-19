@@ -12,6 +12,7 @@
 
 .history-item {
   display: flex;
+  position: relative;
   flex-direction: column;
   align-content: center;
   justify-content: center;
@@ -33,6 +34,13 @@
 
   transition: all 500ms;
 }
+.history-item > p {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 5px;
+  padding: 10px;
+}
 
 .history-item:hover {
   box-shadow: rgba(2, 8, 20, 0.1) 0px 35em 1.175em,
@@ -42,6 +50,10 @@
 
 .history-item-tall {
   grid-row: span 2;
+}
+#bob-quote {
+  font-style: italic;
+  font-size: 18px;
 }
 
 @media screen and (min-width: 600px) {

@@ -12,7 +12,10 @@ export function History() {
         </p>
       </div>
       <div className="history-item">
-        <p>One day at a time!</p>
+        <p>
+          "Love the life you live, live the life you love"
+          <span id="bob-quote">- Bob Marley</span>
+        </p>
       </div>
       <div
         className="history-item"
@@ -42,19 +45,19 @@ export function History() {
         className="history-item history-item-tall"
         style={{ backgroundImage: `url("/yoga3.jpg")` }}
       >
-        <p> 7 </p>
+        <p>Yoga on the beach, Odessa</p>
       </div>
       <div
         className="history-item history-item-tall"
         style={{ backgroundImage: `url("/rejika-croatia.jpg")` }}
       >
-        <p> 8 </p>
+        <p> Rejika, Croatia </p>
       </div>
       <div
         className="history-item history-item-tall"
         style={{ backgroundImage: `url("/odessa opera house.jpg")` }}
       >
-        <p> 9 </p>
+        <p> Opera House, Odessa </p>
       </div>
       <div
         className="history-item history-item-tall"
@@ -66,7 +69,7 @@ export function History() {
         className="history-item history-item-tall"
         style={{ backgroundImage: `url("/privos mama.jpg")` }}
       >
-        <p> 11 </p>
+        <p> Privos Market,Odessa </p>
       </div>
       <div
         className="history-item"
@@ -78,7 +81,7 @@ export function History() {
         className="history-item"
         style={{ backgroundImage: `url("/rejika-croatia.jpg")` }}
       >
-        <p> 13 </p>
+        <p> Bakur, Croatia </p>
       </div>
     </section>
   );
