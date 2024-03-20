@@ -90,11 +90,11 @@ range1(5);
 
 //Reverse a string
 function reverseStr(str) {
-  // let reversed = str.split("").reverse().join("");
-  let reversed = "";
-  for (let char of str) {
-    reversed = char + reversed;
-  }
+  let reversed = str.split("").reverse().join("");
+  // let reversed = "";
+  // for (let char of str) {
+  //   reversed = char + reversed;
+  // }
 
   return reversed;
 }
@@ -114,7 +114,7 @@ function reverseInt(n) {
   //Math.sign() is an inbuilt method for determining neg or positive values as input
 }
 
-console.log(reverseInt(-981));
+console.log(reverseInt(-91));
 
 //Palidrome function
 function palidrome(str) {
@@ -124,7 +124,7 @@ function palidrome(str) {
   }
   return false;
 }
-console.log(palidrome("kayak"));
+console.log(palidrome("coding money"));
 
 //Character most common in a string
 
