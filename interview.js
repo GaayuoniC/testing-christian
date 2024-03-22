@@ -1,4 +1,4 @@
-//
+//A intersection B intersection C....
 function symdiff(...args) {
   //concate all the arrays into one
   const mergedArr = args.reduce((acc, arr) => acc.concat(arr), []);
